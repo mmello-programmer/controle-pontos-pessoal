@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Leka Despesas";
+}
+
+<h2>Controle de Despesas Leka</h2>
+
+<div class="row">
+    <form>
+        <div class="form-group">
+            <label for="mes">Mês?</label>
+            <input type="text" class="form-control" id="mes" placeholder="Janeiro...">
+        </div>
+        <br />
+
+        <div class="form-group">
+            <label for="valor">Quantidade de dias que você deveria ter trabalhado no mês</label>
+            <input type="text" class="form-control" id="valor" placeholder="Ex: 22...">
+        </div>
+        <br />
+
+
+        <div class="form-group">
+            <label for="valor">Quantidade de plantões realizados</label>
+            <input type="text" class="form-control" id="valor" placeholder="Ex: 2...">
+        </div>
+        <br />
+
+
+        <div class="form-group">
+            <label for="valor">Quantidade de faltas</label>
+            <input type="text" class="form-control" id="valor" placeholder="Ex: 1">
+        </div>
+        <br />
+
+
+        <div class="form-group">
+            <label for="valor">Dessas faltas, quantas foram em plantão?</label>
+            <input type="text" class="form-control" id="valor" placeholder="Ex: 0 (Nenhum)">
+        </div>
+        <br />
+
+
+            <legend class="col-form-label col-sm-2 pt-0">Foi um mês atípico?</legend>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                        Sim
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcao2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Não
+                    </label>
+                </div>
+        
+        <br />
+
+        <div class="form-group">
+            <label for="valor">Fez horas-extras/reposição?</label>
+            <input type="text" class="form-control" id="valor" placeholder="Ex: Sim">
+        </div>
+        <br />
+
+        <div class="form-group">
+            <label for="valor">Se sim, quantas horas por dia?</label>
+            <input type="text" class="form-control" id="valor" placeholder="Ex: 1,48...">
+        </div>
+        <br />
+
+
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="gerarExcel">
+            <label class="form-check-label" for="gerarExcel">Gerar Excel?</label>
+        </div>
+        <br />
+
+        <button type="submit" class="btn btn-primary">Go</button>
+    </form>
+</div>

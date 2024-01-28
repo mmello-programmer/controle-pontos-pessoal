@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Juntos Despesas";
+}
+
+<h2>Controle de Despesas Juntos</h2>
+
+<div class="row">
+    <form>
+        <div class="form-group">
+            <label for="mes">Mês?</label>
+            <input type="text" class="form-control" id="mes" placeholder="Digite um mês de 2024...">
+        </div>
+        <div class="form-group">
+            <label for="valor">Quanto recebemos juntos?</label>
+            <input type="text" class="form-control" id="valor" placeholder="Digite um valor em reais">
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="gerarExcel">
+            <label class="form-check-label" for="gerarExcel">Gerar Excel?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Go</button>
+    </form>
+</div>

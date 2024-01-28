@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\controle de pontos mvc.props" />
+</Project>

@@ -1,0 +1,30 @@
+C:\Users\letic\source\repos\controle de pontos mvc\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\letic\source\repos\controle de pontos mvc\bin\Debug\net6.0\appsettings.json
+C:\Users\letic\source\repos\controle de pontos mvc\bin\Debug\net6.0\controle de pontos mvc.staticwebassets.runtime.json
+C:\Users\letic\source\repos\controle de pontos mvc\bin\Debug\net6.0\controle de pontos mvc.exe
+C:\Users\letic\source\repos\controle de pontos mvc\bin\Debug\net6.0\controle de pontos mvc.deps.json
+C:\Users\letic\source\repos\controle de pontos mvc\bin\Debug\net6.0\controle de pontos mvc.runtimeconfig.json
+C:\Users\letic\source\repos\controle de pontos mvc\bin\Debug\net6.0\controle de pontos mvc.dll
+C:\Users\letic\source\repos\controle de pontos mvc\bin\Debug\net6.0\controle de pontos mvc.pdb
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\controle de pontos mvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\controle de pontos mvc.AssemblyInfoInputs.cache
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\controle de pontos mvc.AssemblyInfo.cs
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\controle de pontos mvc.csproj.CoreCompileInputs.cache
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\controle de pontos mvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\controle de pontos mvc.RazorAssemblyInfo.cache
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\controle de pontos mvc.RazorAssemblyInfo.cs
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\staticwebassets\msbuild.controle de pontos mvc.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\staticwebassets\msbuild.build.controle de pontos mvc.props
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.controle de pontos mvc.props
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.controle de pontos mvc.props
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\scopedcss\bundle\controle de pontos mvc.styles.css
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\scopedcss\projectbundle\controle de pontos mvc.bundle.scp.css
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\controle de pontos mvc.dll
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\refint\controle de pontos mvc.dll
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\controle de pontos mvc.pdb
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\controle de pontos mvc.genruntimeconfig.cache
+C:\Users\letic\source\repos\controle de pontos mvc\obj\Debug\net6.0\ref\controle de pontos mvc.dll

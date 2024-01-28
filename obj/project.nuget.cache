@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ltMrDOJU3Og7075ZGZE9Kaj2sBeDh/eB6gZ+YOpj7tp1vOlp2CPfOGqeqNUBUwFD1Xi/bN5hN3LyJFo13PKc8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\letic\\source\\repos\\controle de pontos mvc\\controle de pontos mvc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\letic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\letic\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\letic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\letic\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
