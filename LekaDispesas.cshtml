@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Leka Despesas";
+}
+
+<h2>Controle de Despesas Leka</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<form asp-action="LekaDispesas" method="post">
+    <div class="form-group">
+        <label for="mes">Mês?</label>
+        <input type="text" class="form-control" id="mes" name="mes" placeholder="Janeiro...">
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="diasmes">Quantidade de dias que você deveria ter trabalhado no mês</label>
+        <input type="text" class="form-control" id="diasmes" name="diasmes" placeholder="Ex: 22...">
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="plantoes">Quantidade de plantões realizados</label>
+        <input type="text" class="form-control" id="plantoes" name="plantoes" placeholder="Ex: 2...">
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="faltas">Quantidade de faltas</label>
+        <input type="text" class="form-control" id="faltas" name="faltas" placeholder="Ex: 1">
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="faltasplantoes">Dessas faltas, quantas foram em plantão?</label>
+        <input type="text" class="form-control" id="faltasplantoes" name="faltasplantoes" placeholder="Ex: 0 (Nenhum)">
+    </div>
+    <br />
+
+    <legend class="col-form-label col-sm-2 pt-0">Foi um mês atípico?</legend>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="atipico" id="atipico" value="Sim" checked>
+        <label class="form-check-label" for="atipico">
+            Sim
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="atipico" id="naoAtipico" value="Não">
+        <label class="form-check-label" for="naoAtipico">
+            Não
+        </label>
+    </div>
+
+    <div class="form-group">
+        <label for="hextra">Fez horas-extras/reposição?</label>
+        <input type="text" class="form-control" id="hextra" name="hextra" placeholder="Ex: Sim">
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="hextradia">Se sim, quantas horas por dia?</label>
+        <input type="text" class="form-control" id="hextradia" name="hextradia" placeholder="Ex: 1,48...">
+    </div>
+    <br />
+
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="gerarexcel" name="gerarexcel">
+        <label class="form-check-label" for="gerarExcel">Gerar Excel?</label>
+    </div>
+    <br />
+
+    <button type="submit" class="btn btn-primary">Calcular</button>
+</form>

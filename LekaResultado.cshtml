@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Leka Resultado";
+}
+
+<h2>Resultado do Controle de Despesas Leka</h2>
+
+<div>
+    <p>O valor total a receber é: R$@ViewData["ValorTotalAReceber"]</p>
+    <!-- Adicione outras informações que deseja exibir do resultado do cálculo -->
+</div>
+
+@if (Model != null)
+{
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Detalhes</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Mês</th>
+                        <th>Plantões Realizados</th>
+                        <th>Faltas</th>
+                        <th>Horas Extras</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Mes</td>
+                        <td>@Model.Plantoes</td>
+                        <td>@Model.Faltas</td>
+                        <td>@Model.TotalHorasExtras</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+
+<a asp-action="LekaDispesas" class="btn btn-primary">Voltar</a>
